@@ -1,0 +1,14 @@
+<ion-view view-title="Nákupní seznam">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios-arrow-back" ui-sref="tab.dash"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ul class="list">
+            <li class="item" ng-repeat="(nazev, ingr) in nakup">
+                <h2>{{nazev}}</h2>
+                <span class="badge badge-positive">{{ingr.kolik}} {{ingr.jednotka}}</span>
+            </li>
+
+        </ul>
+    </ion-content>
+</ion-view>

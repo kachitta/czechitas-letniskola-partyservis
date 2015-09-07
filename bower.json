@@ -1,0 +1,11 @@
+{
+  "name": "HelloIonic",
+  "private": "true",
+  "dependencies": {
+    "ionic": "1.1.0",
+    "angular-ui-calendar": "1.0.1"
+  },
+  "resolutions": {
+    "angular": "1.4.3"
+  }
+}

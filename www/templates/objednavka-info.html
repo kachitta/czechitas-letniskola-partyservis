@@ -1,0 +1,28 @@
+<ion-view view-title="Zákazník">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios-arrow-back" ui-sref="tab.dash"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ul class="list">
+            <li class="item">
+                Jméno: {{obj.zakaznik}}
+            </li>
+
+            <li class="item">
+                Místo: {{obj.misto}}
+            </li>
+
+            <li class="item">
+                Den a čas: {{obj.denForm}}
+            </li>
+        </ul>
+        <ul class="list">
+            <li class="item item-checkbox">
+                <label class="checkbox">
+                    <input type="checkbox" ng-model="obj.done">
+                </label>
+                Splněno
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>

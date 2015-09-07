@@ -1,0 +1,11 @@
+{
+  "name": "partyservis",
+  "version": "1.0.0",
+  "description": "partyservis: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist"
+  ],
+  "cordovaPlatforms": [
+    "android"
+  ]
+}

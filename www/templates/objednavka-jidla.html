@@ -1,0 +1,14 @@
+<ion-view view-title="Objednaná jídla">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios-arrow-back" ui-sref="tab.dash"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ul class="list">
+            <li class="item item-avatar" ng-repeat="jidlo in obj.jidla">
+                <img src="{{jidlo.jidlo.ikona}}">
+                <h2>{{jidlo.jidlo.name}}</h2>
+                <span class="badge badge-positive">{{jidlo.kolik}}×</span>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
